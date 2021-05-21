@@ -1,0 +1,25 @@
+@mixin mq($agu) {
+    @media screen and (max-width: $agu) {
+        @content;
+    }
+}
+@mixin btn {
+    padding: 15px 28px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 50px;
+    background: transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 0;
+    outline: none;
+    transition: all 0.4s ease;
+    &:hover{
+        color: white;
+        background: $gradient;
+        font-size: 16px;
+    }
+    @include mq(450px){
+        font-size: 15px;
+    }
+}
