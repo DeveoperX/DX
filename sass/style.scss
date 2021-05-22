@@ -266,7 +266,7 @@ video{
                 font-size: 35px;
             }
             @include mq(450px){
-                font-size: 19px;
+                font-size: 18px;
             }
         }
         .display-4{
@@ -280,38 +280,8 @@ video{
             }
         }
     }
-    // .icons{
-    //     a{
-    //         background-color: $major;
-    //         font-size: 24px;
-    //         color: white;
-    //         padding: 7px 12px;
-    //         border-radius: 50%;
-    //         margin-left: 11px;
-    //         @include mq(500px){
-    //             padding: 5px 9px;
-    //             font-size: 18px;
-    //         }
-    //     }
-    //     a:nth-child(1){
-    //         margin-left: 0;
-    //     }
-    //     a:nth-child(2){
-    //         background: #285AEB;
-    //     }
-    //     a:nth-child(3){
-    //         background-color: rgb(70, 154, 165);
-    //     }
-    //     a:nth-child(4){
-    //         background-color: rgb(6, 255, 159);
-    //     }
-    //     a:nth-child(5){
-    //         background-color: rgb(30, 128, 98);
-    //     }
-    //     a:nth-child(6){
-    //         background-color: rgb(42, 24, 107);
-    //     }
-    // }
+
+   
     .btn_hero{
         @include btn();
         padding: 13px 30px;
@@ -363,7 +333,7 @@ video{
     margin-top: -100px;
     margin-bottom: 70px;
     z-index: 10;
-    box-shadow: 2px 3px 15px 1px rgba(0, 0, 0, 0.411);
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.247);
     width: 90%;
     margin: initial auto;
     @include mq(1000px){
@@ -859,5 +829,3 @@ video{
         font-size: 14px;
     }
 }
-
-
