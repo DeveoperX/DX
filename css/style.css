@@ -81,7 +81,7 @@ video {
   display: block;
   text-align: center;
   padding-top: 14px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 @media screen and (max-width: 900px) {
