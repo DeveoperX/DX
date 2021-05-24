@@ -9,6 +9,7 @@
     <meta name="author" content="Usama Ashraf">
     <link rel="shortcut icon" type="images/png" href="img/icon.png"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/style.css">
     <title>Usama Ashraf | Web Developer & Front End Developer</title>
 </head>
@@ -35,7 +36,7 @@
             </label>
         </div>
         <div class="header_overlay">
-            <h4><span>DX</span></h4>
+            <h4><span>D</span>X</h4>
             <nav>
                 <ul>
                     <li><a href="#About">About</a></li>
@@ -61,7 +62,7 @@
                     <div class="mt-lg-3 mt-0">
                         <a type="button" href="#Contact" class="btn_hero">Hire Me</a>
                         <a type="button" href="resume.html" class="btn_hero_1 ml-2">See my resume</a>
-                    </div>
+                    </div>              
                 </div>
             </div>
         </div>
@@ -69,23 +70,23 @@
 
     <!-- Some Skills Section -->
 
-    <section class="skills_section container bg-white">
+    <section class="skills_section container bg-white" data-aos="fade-up" data-aos-duration="1000">
         <div class="row no-gutter">
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6" data-aos="zoom-out-down" data-aos-duration="1000" data-aos-delay="400">
                 <div class="skills_section_content text-center">
                     <i class="fas fa-mobile-alt"></i>
                     <h3>Responsive Design</h3>
                     <p>You don't need to be worry about the Responsiveness. I can develop your website user friendly with some latest technologies like Boootstrap 5</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="400">
                 <div class="skills_section_content text-center">
                     <i class="fas fa-tv"></i>
                     <h3>Up To Date</h3>
                     <p>I have knowlegde about the latest technologies  I'm always here for you and I always keep my self upto date with the latest tools and technologies.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-12">
+            <div class="col-lg-4 col-md-12" data-aos="zoom-out-down" data-aos-duration="1000" data-aos-delay="400">
                 <div class="skills_section_content text-center" style="border: none;">
                     <i class="fab fa-uikit"></i>
                     <h3>UX / UI</h3>
@@ -102,10 +103,10 @@
         <div class="display-4 text-center font-weight-bold">ABOUT ME</div>
         <div class="display-4 font-weight-bold text-center d-sm-none d-block who_i_am">WHO AM I</div>
             <div class="row m-0 mt-4">
-                <div class='col-md-6 col-12 d-flex align-items-center'>
+                <div class='col-md-6 col-12 d-flex align-items-center' data-aos="fade-up" data-aos-duration="1000">
                     <img src="img/web1.jpg" class="img-fluid" alt="Usama Picture">
                 </div>
-                <div class="col-md-6 col-12 p-3">
+                <div class="col-md-6 col-12 p-3" data-aos="fade-left" data-aos-duration="1000">
                     <div class="display-4 font-weight-bold d-sm-block d-none who_i_am">WHO AM I</div>
                     <p class="text-justify mt-2">Developing an app or a website by using the Front End Languages like: HTML, CSS and JAVASCRIPT. I basically work on client side. I also have knowlegde of javaScript Frameworks.</p>
                     <p class="text-justify mt-2">I have knowlegde about the latest technologies I'm always here for you and I always keep my self upto date with the latest tools and technologies.</p>
@@ -119,7 +120,7 @@
     <section class="section_skills mt-5 mb-3" id="Skills">
         <div class="container">
             <div class="display-4 font-weight-bold text-center">SKILLS</div>
-            <div class="row mt-2">
+            <div class="row mt-2" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-md-6">
                     <div class="skill_box card card-body border-0">
                         <div class="d-flex justify-content-between">
@@ -229,7 +230,7 @@
                 <button class="btn_iso mx-2" data-filter=".back">Back End</button>
                 <button class="btn_iso mx-2" data-filter=".wordpress">Wordpress</button>
             </div>
-            <div class="row main_isotope">
+            <div class="row main_isotope" data-aos="zoom-out-up" data-aos-duration="1000">
                 <div class="col-md-4 col-12 item front">
                     <div class="card card_styling">
                     <div class="custom_image"></div>
@@ -528,6 +529,12 @@
 <script src="https://kit.fontawesome.com/139e37df72.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: true
+  });
+</script>
 <script src="js/index.js"></script>
 </body>
 </html>
